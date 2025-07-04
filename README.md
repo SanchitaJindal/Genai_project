@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# 🌤️ Mood-Based Motivation Quote Generator using Gemini API
 
-First, run the development server:
+A GenAI-powered web app that delivers personalized motivational quotes based on the user’s current emotional state using Google’s **Gemini API**.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Live Demo
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🔗 [Deployed Web App](https://genai-project-seven.vercel.app/)  
+📂 [GitHub Repository](https://github.com/SanchitaJindal/Genai_project)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📌 Project Overview
 
-## Learn More
+This project was built as part of the Generative AI coursework at **VIT Vellore**. The goal is to create a seamless experience where users can select their mood and receive an uplifting quote tailored to their emotional state.
 
-To learn more about Next.js, take a look at the following resources:
+### 🎯 Objectives
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Understand and integrate generative models like **Gemini**.
+- Build an intuitive and responsive frontend using **Next.js**, **TailwindCSS**, and **TypeScript**.
+- Provide personalized motivational content to users in real-time.
+- Ensure graceful UX through thoughtful error handling and clean UI design.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🛠️ Tech Stack
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Frontend**: Next.js (React App Router), TypeScript, TailwindCSS
+- **API**: Google Gemini API
+- **Deployment**: Vercel
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## ✨ Features
+
+- 🧠 Mood Selection: Choose from a list of moods via interactive buttons.
+- 📜 Quote Generation: Uses Gemini API to generate motivational quotes.
+- 💬 Beautiful UI: Responsive quote card display with loading indicators and disabled states.
+- 🚨 Error Handling: Catches API/network failures and invalid states gracefully.
+
+---
+
+## 🧪 Testing
+
+### ✅ Testing Strategy
+
+- Manual testing with various mood inputs.
+- Verifying correctness, API communication, and UI responsiveness.
+
+### 🧩 Types of Testing Conducted
+
+- **Unit Testing**: Tested `generateMotivation()` and button handlers.
+- **Integration Testing**: Verified UI and API flow.
+- **User Testing**: Gathered feedback on usability and aesthetics.
+- **Performance Testing**: Ensured low latency during repeated usage.
+
+### 📈 Results
+
+- ⚡ Fast response time with minimal latency.
+- ✅ Accurate, mood-relevant quote generation.
+- 🛡️ Robust error and edge case handling.
+
+---
+
+## 🔮 Future Enhancements
+
+- 🔗 Add social media sharing for quotes.
+- 🎞️ Enhance UX with animations and transitions.
+- 🔊 Integrate text-to-speech for quote narration.
+- 📊 Introduce feedback/rating system.
+- 🧾 Allow free-text mood input and expand emotion coverage.
+
+---
+
+## 🧾 Conclusion
+
+The Mood-Based Motivation Quote Generator showcases the creative potential of **Generative AI** in delivering emotionally-aware, uplifting experiences. It merges technology, psychology, and design into a simple yet powerful application.
+
+---
+
+## 📬 Contact
+
+**👩‍💻 Developer**: Sanchita Jindal  
+📧 Email: [sanchita.jindal2022@vitstudent.ac.in](mailto:sanchita.jindal2022@vitstudent.ac.in)  
+🏫 College: VIT, Vellore
+
+---
+
+> “Sometimes a quote is all it takes to change your mindset.”
